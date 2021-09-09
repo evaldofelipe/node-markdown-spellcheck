@@ -46,6 +46,7 @@ else if (program.esEs) {
 const options = {
   ignoreAcronyms: program.ignoreAcronyms,
   ignoreNumbers: program.ignoreNumbers,
+  ignoreCrypto: program.ignoreCrypto,
   suggestions: program.suggestions,
   relativeSpellingFiles: program.targetRelative,
   dictionary: {

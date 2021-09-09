@@ -62,6 +62,7 @@ if (_commander2.default.enUs) {
 var options = {
   ignoreAcronyms: _commander2.default.ignoreAcronyms,
   ignoreNumbers: _commander2.default.ignoreNumbers,
+  ignoreCrypto: _commander2.default.ignoreCrypto,
   suggestions: _commander2.default.suggestions,
   relativeSpellingFiles: _commander2.default.targetRelative,
   dictionary: {
